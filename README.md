@@ -22,7 +22,14 @@ winpty mysql -u root -p
 
 - Authentication service
   Authentication service uses MySQL database with user specified in init.sql file.
-  Inorder to check the file and modify it run cmd inside `/microservice/python/src/auth/`
+  Inorder to check the file and modify it run cmd inside `/microservice-arch/python/src/auth/`
+
   ```bash
   mysql -uroot -p < init.sql
+  ```
+
+  ## Run Auth Service using command
+
+  ```bash
+  python server.py
   ```
