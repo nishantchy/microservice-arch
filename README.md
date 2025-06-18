@@ -2,19 +2,19 @@
 
 This project is only based on understanding how microservice applications works. It is created using python Flask.
 
-## Initialize Project in virtual environment
+## Initialize Project in virtual environment in auth. Inside `/microservice-arch/python/src/auth/` run command:
 
 ```bash
 python -m venv venv
 ```
 
-## Run the virtual environment in gitbash terminal using
+## Run the virtual environment in gitbash terminal using:
 
 ```bash
 source venv/Scripts/activate
 ```
 
-## Inorder to access database, use command
+## Inorder to access database, use command:
 
 ```bash
 winpty mysql -u root -p
@@ -28,7 +28,7 @@ winpty mysql -u root -p
   mysql -uroot -p < init.sql
   ```
 
-  ## Run Auth Service using command
+  ## Run Auth Service using command:
 
   ```bash
   python server.py
